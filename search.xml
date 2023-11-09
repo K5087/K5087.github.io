@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>第一篇博客</title>
+    <url>/%E9%97%B2%E8%81%8A/hello-world/</url>
+    <content><![CDATA[<p>欢迎来到默客的博客页面,部署hexo和butterfly主题并没有什么难度,但是排版错误令我浪费了许多时间,至今404界面的排版错误还没有解决.不过无伤大雅.完成之后看起来赏心悦目,挺有一番成就感,也不知我今后会在这里都写什么东西.</p>
+<h2 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h2><ol>
+<li><p>目前为止我仍在学习C++,暂时还没有什么想做的东西,也许寻找一个目标对我来说是个迫在眉睫的事情.</p>
+</li>
+<li><p>特长,嗯,我太过平凡,没有什么拿得出手的特长,从天赋来看将来也不会有.只能祈祷奇迹发生了.</p>
+</li>
+<li><p>工作,毕业至今仍是无业游民.</p>
+</li>
+</ol>
+<h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><ul>
+<li>对编程有兴趣,最早是因为和别人闹矛盾,只能自己去写代码,然后被其森罗万象的表象和内涵吸引,你可以利用编程做很多自己想做的事而不用受到任何约束,又可以与世上其他学科深度交融,直观体会和感受知识之美.</li>
+<li>正如上段所说,知识自有其美,学校没能成为我的引路人,却是我接触世界的唯一选择.如果能以正确的方式进入其中,我想任何人都会爱上学习吧.</li>
+<li>目前对计算机相关的知识都有一点了解,找到目标后或许会深入吧</li>
+</ul>
+<h2 id="愿望"><a href="#愿望" class="headerlink" title="愿望"></a>愿望</h2><ul>
+<li><input disabled="" type="checkbox"> 能有足够的钱维持自己生活和设备</li>
+<li><input disabled="" type="checkbox"> 写出一些令人震撼的代码</li>
+<li><input disabled="" type="checkbox"> 一生平安幸福</li>
+</ul>
+]]></content>
+      <categories>
+        <category>闲聊</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法参考</title>
+    <url>/%E5%8F%82%E8%80%83%E6%96%87%E6%A1%A3/Markdown%E8%AF%AD%E6%B3%95%E5%8F%82%E8%80%83/</url>
+    <content><![CDATA[<h1 id="Typora-中的-Markdown"><a href="#Typora-中的-Markdown" class="headerlink" title="Typora 中的 Markdown"></a>Typora 中的 Markdown</h1><h2 id="概述-Overview"><a href="#概述-Overview" class="headerlink" title="概述 (Overview)"></a>概述 (Overview)</h2><p><strong>Markdown</strong> 是由 <a href="http://daringfireball.net/">Daring Fireball</a> 创造的, 其起始规范在<a href="http://daringfireball.net/projects/markdown/syntax">这里</a>。</p>
+<p>它是一种语法,然而在语法和编辑器中有许多不同. <strong>Typora</strong> 使用的是 <a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Flavored Markdown</a>.</p>
+<h2 id="块状元素-Block-Elements"><a href="#块状元素-Block-Elements" class="headerlink" title="块状元素 (Block Elements)"></a>块状元素 (Block Elements)</h2><h3 id="段落和行中断-Paragraph-and-line-breaks"><a href="#段落和行中断-Paragraph-and-line-breaks" class="headerlink" title="段落和行中断 (Paragraph and line breaks)"></a>段落和行中断 (Paragraph and line breaks)</h3><p>由一个或多个文字连起来的行称为段落. 在 markdown源中,段落之间由两个(或更多)空白行分割.在Typora中,你只需要一个空白行就可以创建新段落(按一下回车<code>Enter</code>). <strong>Moke注</strong>: <strong><em>常规文本编辑器按两下回车产生两个空白行,再按一次回车,在第三个空白行上写上文字,才算创建一个新段落.</em></strong></p>
+<p>按下<code>Shift + Enter</code>才可以单行换行,大多数其他的 Markdown 解析器会忽略单行换行,所以为了让其他解析器意识到你的单行换行,你需要键入两个空格表示行的结束或者键入<code>&lt;br/&gt;</code>. <strong>Moke注</strong>: <strong><em>我并没有测试过其他解析器,在Typora中<code>&lt;br/&gt;</code>仅在视觉效果上产生单行换行,实际文本中并没有单行换行.</em></strong></p>
+<h3 id="标题-Headings"><a href="#标题-Headings" class="headerlink" title="标题 (Headings)"></a>标题 (Headings)</h3><p>标题使用1-6个#符号在行的开头. 对应1-6个等级的标题. 例如:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 这是h1标题	 		This is an H1</span></span><br><span class="line"></span><br><span class="line"><span class="section">## 这是h2标题			This is an H2</span></span><br><span class="line"></span><br><span class="line"><span class="section">###### 这是h6标题		This is an H6</span></span><br></pre></td></tr></table></figure>
+<p>在 Typora 中,输入的’#’代表标题目录,并且键入<code>Enter</code>才能创建一个新的标题.</p>
+<h3 id="引用块-Blockquotes"><a href="#引用块-Blockquotes" class="headerlink" title="引用块 (Blockquotes)"></a>引用块 (Blockquotes)</h3><p>Markdown 使用email-sytle(邮件风格?) <code>&gt;</code> 字符来表示引用块.如下所示:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 这是一个有两个段落的引用块,这是第一个段落</span></span><br><span class="line"><span class="quote">&gt;</span></span><br><span class="line"><span class="quote">&gt;这是第二个段落. Moke注:我居然翻译不出来这玩意(Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&gt;这是另一个引用块只有一个段落.两个引用块之间有三个空白行</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这是一个有两个段落的引用块,这是第一个段落</p>
+<p>这是第二个段落. Moke注:我居然翻译不出来这玩意(Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.)</p>
+<p>这是另一个引用块只有一个段落.两个引用块之间有三个空白行</p>
+</blockquote>
+<p>在 Typora 中, 输入<code>&gt;</code>和你得引用内容会产生一个引用块. Typora 会帮你插入一个合适的<code>&gt;</code>或行中断. 继续添加<code>&gt;</code>会产生嵌套的引用块.(一个引用块插入另一个引用块). </p>
+<h3 id="列表-List"><a href="#列表-List" class="headerlink" title="列表 (List)"></a>列表 (List)</h3><p>输入<code>* 列表项目</code>会创建一个无序列表,<code>*</code>可以用<code>+</code>或者<code>-</code>替代.</p>
+<p>输入<code>1. 列表项目</code>会创建一个有序列表. Markdown代码如下所示</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">#### 无序列表</span></span><br><span class="line"><span class="bullet">*</span> 红色</span><br><span class="line"><span class="bullet">*</span> 绿色</span><br><span class="line"><span class="bullet">*</span> 蓝色</span><br><span class="line"></span><br><span class="line"><span class="section">#### 有序列表</span></span><br><span class="line"><span class="bullet">1.</span> 红色</span><br><span class="line"><span class="bullet">2.</span> 绿色</span><br><span class="line"><span class="bullet">3.</span> 蓝色</span><br></pre></td></tr></table></figure>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>红色</li>
+<li>绿色</li>
+<li>蓝色</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>红色</li>
+<li>绿色</li>
+<li>蓝色</li>
+</ol>
+<h3 id="任务列表-Task-List"><a href="#任务列表-Task-List" class="headerlink" title="任务列表 (Task List)"></a>任务列表 (Task List)</h3><p>任务列表是带有[]或[x]标记的项目列表(代表未完成或完成). 例如:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 一个任务列表项目</span><br><span class="line"><span class="bullet">-</span> [ ] 所需的列表语法</span><br><span class="line"><span class="bullet">-</span> [ ] 正常语法 <span class="strong">**格式化**</span>, @Moke(别艾特我), #1234 类似的</span><br><span class="line"><span class="bullet">-</span> [ ] 未完成项目</span><br><span class="line"><span class="bullet">-</span> [x] 完成项目</span><br></pre></td></tr></table></figure>
+<ul>
+<li>[ ] 一个任务列表项目</li>
+<li>[ ] 所需的列表语法</li>
+<li>[ ] 正常语法 <strong>格式化</strong>, @Moke(别艾特我), #1234 类似的</li>
+<li>[ ] 未完成项目</li>
+<li>[x] 完成项目</li>
+</ul>
+<p>你可以点击项目前面的复选框来改变项目的 完成/未完成状态.</p>
+<h3 id="代码块-Fenced-Code-Blocks"><a href="#代码块-Fenced-Code-Blocks" class="headerlink" title="代码块 (Fenced Code Blocks)"></a>代码块 (Fenced Code Blocks)</h3><p>Typora 仅支持GitHub Flavored Markdown中的隔离式代码块. 不支持Markdown中的原始代码块.</p>
+<p>使用隔离块很容易: 输入```并且键入回车即可. 在后面添加一个可选的语言标识符我们就可以显示语法高亮:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个例子:</span><br><span class="line"></span><br><span class="line">```js</span><br><span class="line">function test() &#123;</span><br><span class="line">	console.log(&quot;注意到这个函数之前的空白行了么&quot;);</span><br><span class="line">&#125;</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">语法高亮:</span><br><span class="line">```ruby</span><br><span class="line">require &#x27;redcaeprt&#x27;</span><br><span class="line">markdown = Redcarpet.new(&quot;你好,世界!&quot;)</span><br><span class="line">puts markdown.to_html</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+<h3 id="数学块-Math-Blocks"><a href="#数学块-Math-Blocks" class="headerlink" title="数学块 (Math Blocks)"></a>数学块 (Math Blocks)</h3><p>你可以使用 <strong>MathJax</strong> 渲染 <em>LaTex</em> 数学公式.</p>
+<p>添加一个数学表达式需要键入$$$$并且按下<code>Enter</code>. 这会触发一个接收器接收 <em>Tex/LayTex</em> 输入. 例如:</p>
+<script type="math/tex; mode=display">
+\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} & \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial u} & \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}</script><p>在 markdown 源文件中,数学块是被一对$$包装起来的 <em>Laytex</em> 表达式:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\mathbf&#123;V&#125;<span class="emphasis">_1 \times \mathbf&#123;V&#125;_</span>2 =  \begin&#123;vmatrix&#125;</span><br><span class="line">\mathbf&#123;i&#125; &amp; \mathbf&#123;j&#125; &amp; \mathbf&#123;k&#125; \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial u&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial u&#125; &amp; 0 \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial v&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial v&#125; &amp; 0 \\</span><br><span class="line">\end&#123;vmatrix&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<p>你可以在<a href="https://support.typora.io/Math/">这里</a>找到更多资料.<strong>Moke注</strong>: <strong><em>进去看了一眼,好他妈复杂.</em></strong></p>
+<h3 id="表格-Tables"><a href="#表格-Tables" class="headerlink" title="表格 (Tables)"></a>表格 (Tables)</h3><p>输入<code>|第一个标题|第二个标题|</code>并且键入<code>Enter</code>. 就会创建一个两列的表格.</p>
+<p>表格创建之后,将光标放在表格上就会在表格上方打开一个工具栏,你可以定义大小,居中或者删除表格, 你也可以使用交互菜单去复制/删除单独的行/列.</p>
+<p>下面介绍了表格的完整语法,但是没有必要了解完整的语法,因为表格的Mrakdown源代码是由Typora自动生成的.</p>
+<p>在 markdown 源中,它们看起来像:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 第一个表头  | 第二个表头  |</span><br><span class="line">| --------- | --------- |</span><br><span class="line">| 内容单元格  | 内容单元格  |</span><br><span class="line">| 内容单元格  | 内容单元格  |</span><br></pre></td></tr></table></figure>
+<p>你也可以在表格中包括内联的markdown,如链接、粗体、斜体或删除线.</p>
+<p>最后,你可以在表头行写入冒号<code>:</code>来定义文本在单元格中是左对齐、右对齐或者居中</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">| 左对齐     |    居中   | 右对齐  |</span><br><span class="line">| :-------- | :------: | -----: |</span><br><span class="line">| 第三列是   |  一些文本  |  $1600 |</span><br><span class="line">| 第二列是   |   居中的   |    $12 |</span><br><span class="line">| 竖线      |    整齐    |     $1 |</span><br></pre></td></tr></table></figure>
+<p>最左边的冒号代表左对齐,最右边的冒号代表右对齐,两边都有冒号则是居中.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:center">居中</th>
+<th style="text-align:right">右对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">第三列是</td>
+<td style="text-align:center">一些文本</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">第二列是</td>
+<td style="text-align:center">居中的</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">竖线</td>
+<td style="text-align:center">整齐</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="脚注-Footnotes"><a href="#脚注-Footnotes" class="headerlink" title="脚注 (Footnotes)"></a>脚注 (Footnotes)</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">你可以像这样创建一个脚注[^脚注]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^脚注</span>]: <span class="link">这是脚注的文本</span></span><br></pre></td></tr></table></figure>
+<p>上面的会产生如下效果:</p>
+<p>你可以像这样创建一个脚注<sup><a href="#fn_脚注" id="reffn_脚注">脚注</a></sup></p>
+<blockquote id="fn_脚注">
+<sup>脚注</sup>. 这是脚注的文本<a href="#reffn_脚注" title="Jump back to footnote [脚注] in the text."> &#8617;</a>
+</blockquote>
+<p>鼠标放在脚注上可以看到链接的脚注内容.</p>
+<h3 id="水平分割线-Horizontal-Rules"><a href="#水平分割线-Horizontal-Rules" class="headerlink" title="水平分割线 (Horizontal Rules)"></a>水平分割线 (Horizontal Rules)</h3><p>输入<code>***</code>或者<code>---</code>并键入<code>Enter</code>会产生一条分割线.</p>
+<hr>
+<h3 id="YAML前置内容-YAML-Front-Matter"><a href="#YAML前置内容-YAML-Front-Matter" class="headerlink" title="YAML前置内容 (YAML Front Matter)"></a>YAML前置内容 (YAML Front Matter)</h3><p>Typora 现在支持 <a href="http://jekyllrb.com/docs/frontmatter/">YAML Front Matter</a>. 在文章顶部输入<code>---</code>并键入<code>Enter</code>会引入一个数据块. 或者你可以,你可以在Typora顶部菜单栏使用插入一个数据块.<strong>Moke注</strong>:<strong><em>在这个文件的最开头.</em></strong></p>
+<h3 id="目录-Table-of-Contents"><a href="#目录-Table-of-Contents" class="headerlink" title="目录 (Table of Contents)"></a>目录 (Table of Contents)</h3><p>输入<code>[toc]</code>并键入<code>Enter</code>,这会创建一个标签目录框.TOC获取文档的所有标题.并自动更新你在文档中添加的内容.</p>
+<h2 id="跨度元素"><a href="#跨度元素" class="headerlink" title="跨度元素"></a>跨度元素</h2><p>跨度元素将在输入后立即被解析和呈现。将光标移到这些跨度元素的中间会将这些元素扩展成markdown源。下面是对每个跨度元素的语法的解释。</p>
+<h3 id="链接-Links"><a href="#链接-Links" class="headerlink" title="链接 (Links)"></a>链接 (Links)</h3><p>Markdown 支持两种格式的链接: 內联和引用.</p>
+<p>两种格式都需要一个链接文本框[方括号]</p>
+<p>为了创建一个内联链接,你需要立即在链接文本结尾的方括号后立即使用一对圆括号:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">这是一个[<span class="string">示例</span>](<span class="link">http://baidu.com/ &quot;标题&quot;</span>)内联链接</span><br><span class="line">[<span class="string">这是链接</span>](<span class="link">http://baidu.com/</span>)没有标题属性</span><br></pre></td></tr></table></figure>
+<p>会产生:</p>
+<p>这是一个内联链接 <a href="http://baidu.com/" title="标题">示例</a> . (相当于<code>&lt;p&gt;示例&lt;a href=&quot;http://baidu.com/&quot; title=&quot;标题&quot;&gt;</code>)</p>
+<p><a href="http://baidu.com/">这个链接</a> 没有标题属性. (相当于<code>&lt;p&gt;&lt;a href=&quot;http://baidu.com/&quot;&gt;这个链接&lt;/a&gt;</code>)</p>
+<h4 id="内部链接-Internal-Links"><a href="#内部链接-Internal-Links" class="headerlink" title="内部链接 (Internal Links)"></a>内部链接 (Internal Links)</h4><p><strong>你可以设置一个链接头</strong>, 这会创建一个bookmark允许你点击后跳转到绘画,如:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">这个链接</span>](<span class="link">#块状元素-(Block Elements</span>))</span><br></pre></td></tr></table></figure>
+<p>Command (在 Windows 平台上是 Ctrl)+鼠标左键单击<a href="#块状元素-Block-Elements">这个链接</a>会跳转到标题<code>块状元素</code>.要看怎么写,请将光标移动到连接上按下<code>⌘</code>(<code>Ctrl</code>)并单击鼠标左键将其展开为 Markdown 源.<strong>Moke注</strong>:<strong><em>在博客内的渲染好像有问题.</em></strong></p>
+<h4 id="参考链接-Reference-Links"><a href="#参考链接-Reference-Links" class="headerlink" title="参考链接 (Reference Links)"></a>参考链接 (Reference Links)</h4><p>参考样式链接使用第二对方括号,里面写你给这个链接选择的标签名来识别链接:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">这是一个参考样式链接[<span class="string">示例</span>][<span class="symbol">标签</span>].</span><br><span class="line"></span><br><span class="line">然后在文档的任何地方,你在一行中定义这个标签链接</span><br><span class="line"></span><br><span class="line">[<span class="symbol">标签</span>]: <span class="link">http://baidu.com/ &quot;可选标题放这里&quot;</span></span><br></pre></td></tr></table></figure>
+<p>在 Typora中.他们呈现这样的效果:</p>
+<p>这是一个参考样式链接<a href="http://baidu.com/" title="可选标题放这里">示例</a>.</p>
+<p>隐含的链接名称快捷方式允许你省略链接的名称,这种情况下,链接文本本身被用作名称.</p>
+<p>只需要在方括号留空,例如,链接一个单词”谷歌”到google.com网页,你可以简单的写:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">谷歌</span>][<span class="symbol"></span>]</span><br><span class="line">并且定义链接</span><br><span class="line"></span><br><span class="line">[<span class="symbol">谷歌</span>]:<span class="link">http:://google.com</span></span><br></pre></td></tr></table></figure>
+<p>在 Typora 中,单击这个链接会展开编辑, command(ctrl)+click 会在你的浏览器打开超链接</p>
+<h3 id="网址-URLs"><a href="#网址-URLs" class="headerlink" title="网址 (URLs)"></a>网址 (URLs)</h3><p>Typora 允许你插入URLs 作为链接,,用&lt;尖括号&gt;括起.</p>
+<p><code>&lt;i@typora.io&gt;</code> 会变成 <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#105;&#64;&#116;&#121;&#112;&#x6f;&#114;&#x61;&#46;&#x69;&#x6f;">&#105;&#64;&#116;&#121;&#112;&#x6f;&#114;&#x61;&#46;&#x69;&#x6f;</a>.</p>
+<p>Typora 会自动链接标准网址. e.g.:www.google.com</p>
+<h3 id="图像-Images"><a href="#图像-Images" class="headerlink" title="图像 (Images)"></a>图像 (Images)</h3><p>图像的简明语法像个链接,但是需要在链接前增加<code>!</code>符号.插入图像的语法如下所示:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">文本</span>](<span class="link">/path/toimg.jpg</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">文本</span>](<span class="link">/path/to/img.jpg &quot;可选标题&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>你也可以拖放图像文件进行插入,点击图像来修改 markdown 源代码.如果使用拖放方式添加的图像与你当前编辑的文档在同一目录或子目录下,则将使用相对路径.</p>
+<p>如果你使用 markdown 来构建网站,你可以在 YAML Front Matters 中使用用属性<code>typora-root-url</code>为本地电脑上的图片预览指定一个URL前缀. 例如,在 YAML Front Matters  中输入<br><code>typora-root-url:/User/Abner/Website/typora.io/</code>然后<code>![alt](/blog/img/test.png)</code> 会被转换为<br><code>![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)</code>.</p>
+<p>在<a href="https://support.typora.io/Images/">这里</a>你可以找到更多详情.</p>
+<h3 id="强调-Emphasis"><a href="#强调-Emphasis" class="headerlink" title="强调 (Emphasis)"></a>强调 (Emphasis)</h3><p>Mrakdown 将星号(<code>*</code>)和下划线(<code>_</code>)作为强调标志.被一个<code>*</code>或者<code>_</code>包裹的文本会被HTML的&lt;<code>em</code>&gt;标签包围</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*星号标志*</span></span><br><span class="line"></span><br><span class="line"><span class="emphasis">_下划线标志_</span></span><br></pre></td></tr></table></figure>
+<p>输出:</p>
+<p><em>星号标志</em></p>
+<p><em>下划线标志</em></p>
+<p>GFM 会忽略文本中的下划线,因为下划线经常用于代码中的变量名称:</p>
+<blockquote>
+<p>wow_great_stuff</p>
+<p>do_this_and_that_and_another_thing</p>
+</blockquote>
+<p>为了在某个位置写入星号或下划线而避免被当作强调标志,你可以使用反斜线符号避免它:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">\<span class="emphasis">*这段文本被反斜线环绕\*</span></span><br></pre></td></tr></table></figure>
+<p>*这段文本被反斜线环绕*</p>
+<p>Typora 推荐使用 <code>*</code> 符号作为强调标志.</p>
+<h3 id="加粗-Strong"><a href="#加粗-Strong" class="headerlink" title="加粗 (Strong)"></a>加粗 (Strong)</h3><p>被两个 <code>*</code> 或者 <code>_</code> 围起来的内容会被HTML <code>strong</code> 标签包裹,例如:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**两个星号**</span><br><span class="line"></span><br><span class="line">__两个下划线__</span><br></pre></td></tr></table></figure>
+<p>输出:</p>
+<p><strong>两个星号</strong></p>
+<p><strong>两个下划线</strong></p>
+<p>Typora 推荐使用 <code>**</code> 符号.</p>
+<h3 id="代码-Code"><a href="#代码-Code" class="headerlink" title="代码 (Code)"></a>代码 (Code)</h3><p>要表是代码的内联跨度,请使用单引号包裹它,与预先格式化的代码块不同,代码跨度表示正常段落中的代码. 比如:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">使用<span class="code">`printf()`</span>函数.</span><br></pre></td></tr></table></figure>
+<p>会产生:</p>
+<p>使用<code>printf()</code>函数.</p>
+<h3 id="删除线-Strikethrough"><a href="#删除线-Strikethrough" class="headerlink" title="删除线 (Strikethrough)"></a>删除线 (Strikethrough)</h3><p>GFM 增加了创建删除线文本的语法,Markdown中没有这条.</p>
+<p><code>~~删除线文本~~</code> 会变成 <del>删除线文本</del></p>
+<h3 id="表情符号-Emoji-smile"><a href="#表情符号-Emoji-smile" class="headerlink" title="表情符号 (Emoji :smile:)"></a>表情符号 (Emoji :smile:)</h3><p>输入表情的语法: <code>:smile:</code></p>
+<p>按下<code>ESC</code>可以触发表情符号的自动补全,或者在偏好面板启用启用后自动触发. 当然,通过菜单栏的<code>编辑</code>-&gt;<code>表情符号</code>也可以直接输入UTF-8字符(macOS).</p>
+<h3 id="内联公式-Inline-Math"><a href="#内联公式-Inline-Math" class="headerlink" title="内联公式 (Inline Math)"></a>内联公式 (Inline Math)</h3><p>要使用这个特性,请在<code>偏好设置</code>面板-&gt;<code>Markdown</code>标签页启用它,使用<script type="math/tex">`来包裹一个 Tex 命令.例如: `$\lim_{x \to \infty} \exp(-x) = 0</script>会显示为 LaTex命令</p>
+<p>为了触发预览内联数学公式:输入”$”后按<code>ESC</code>,然后输入一个TeX命令.</p>
+<p>你可以在<a href="https://support.typora.io/Math/">这里</a>找到更多信息.</p>
+<h3 id="下标-Subscript"><a href="#下标-Subscript" class="headerlink" title="下标 (Subscript)"></a>下标 (Subscript)</h3><p>要使用这个特性,请在<code>偏好设置</code>面板-&gt;<code>Markdown</code>标签页启用它,然后使用<code>~</code>包裹下标内容.例如:<code>H~2~O</code>,<code>X~long\ text~</code>/</p>
+<h3 id="上标-Superscript"><a href="#上标-Superscript" class="headerlink" title="上标 (Superscript)"></a>上标 (Superscript)</h3><p>要使用这个特性,请在<code>偏好设置</code>面板-&gt;<code>Markdown</code>标签页启用它,然后使用<code>^</code>包裹上标内容.例如 <code>X^2^</code>.</p>
+<h3 id="高亮-Highlight"><a href="#高亮-Highlight" class="headerlink" title="高亮 (Highlight)"></a>高亮 (Highlight)</h3><p>要使用这个特性,请在<code>偏好设置</code>面板-&gt;<code>Markdown</code>标签页启用它,然后使用<code>==</code>包裹高亮内容.例如 <code>==highlight==</code>.</p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><p>你可以使用HTML格式的内容来设计Markdown不受支持的内容. 比如,使用<code>&lt;span style=&quot;color:red&quot;&gt;this text is red&lt;/span&gt;</code>来添加一段红色文本</p>
+<h3 id="插入内容-Embed-Contents"><a href="#插入内容-Embed-Contents" class="headerlink" title="插入内容 (Embed Contents)"></a>插入内容 (Embed Contents)</h3><p>一些网站提供基于iframe的嵌入代码,你可以将其粘贴到Typora中,例:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">&#x27;265&#x27;</span> <span class="attr">scrolling</span>=<span class="string">&#x27;no&#x27;</span> <span class="attr">title</span>=<span class="string">&#x27;Fancy Animated SVG Menu&#x27;</span> <span class="attr">src</span>=<span class="string">&#x27;http://codepen.io/jeangontijo/embed/OxVywj/?height=265&amp;theme-id=0&amp;default-tab=css,result&amp;embed-version=2&#x27;</span> <span class="attr">frameborder</span>=<span class="string">&#x27;no&#x27;</span> <span class="attr">allowtransparency</span>=<span class="string">&#x27;true&#x27;</span> <span class="attr">allowfullscreen</span>=<span class="string">&#x27;true&#x27;</span> <span class="attr">style</span>=<span class="string">&#x27;width: 100%;&#x27;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h3 id="视频-Viedo"><a href="#视频-Viedo" class="headerlink" title="视频 (Viedo)"></a>视频 (Viedo)</h3><p>你可以使用<code>&lt;viedo&gt;</code>的 HTML 标签来包裹视频,例:</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">&quot;xxx.mp4&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h3 id="其它HTML支持-Other-HTML-Support"><a href="#其它HTML支持-Other-HTML-Support" class="headerlink" title="其它HTML支持 (Other HTML Support)"></a>其它HTML支持 (Other HTML Support)</h3><p>你可以在 <a href="https://support.typora.io/HTML/">这里</a>找到更多信息.</p>
+]]></content>
+      <categories>
+        <category>参考文档</category>
+      </categories>
+      <tags>
+        <tag>文档</tag>
+      </tags>
+  </entry>
+</search>
